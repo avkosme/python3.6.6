@@ -6,6 +6,7 @@ RUN yum -y install openssl-devel
 RUN yum -y install libffi-devel
 RUN yum -y install make
 RUN yum -y install wget
+RUN yum -y install bzip2-devel
 RUN yum -y install python-devel mysql-devel sqlite-devel
 
 RUN cd /opt/ && wget https://www.python.org/ftp/python/3.6.6/Python-3.6.6.tar.xz -O /opt/Python-3.6.6.tar.xz
